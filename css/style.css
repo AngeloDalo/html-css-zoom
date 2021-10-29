@@ -60,9 +60,8 @@ main {
     background-color: red;
     min-height: 300px;
     min-width: 300px;
-    overflow: hidden;
+    overflow-y: scroll;
 }
-
 
 main .utente {
     width: 170px;
@@ -71,5 +70,15 @@ main .utente {
     background-size: cover;
     background-position: center;
     margin-bottom: 1em;
+    display: flex;
+    align-items: flex-end;
 }
+
+.utente .utente-nome {
+    font-size: 0.6em;
+    width: 40%;
+    background-color: grey;
+    color: white;
+}
+
 /*fine css main*/
