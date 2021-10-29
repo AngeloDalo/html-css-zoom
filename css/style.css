@@ -94,10 +94,16 @@ nav {
 
 .nav-colonna-sx {
     color: white;
-    height: 100%;
     flex-basis: 25%;
+}
+
+.nav-colonna-sx,
+.nav-colonna-cx,
+.nav-colonna-dx {
+    color: white;
+    height: 100%;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .nav-colonna-cx {
@@ -110,31 +116,39 @@ nav {
     flex-basis: 25%;
 }
 
-.sx-contenitore{
+.sx-contenitore,
+.cx-contenitore,
+.dx-contenitore{
     display: flex;
     align-items: center;
     margin-right: 1em;
 }
 
-.sx-contenitore:hover {
+.sx-contenitore:hover,
+.cx-contenitore:hover {
     background-color: grey;
 }
 
-.sx-simbolo:hover {
+.simbolo:hover {
     background-color: rgb(82, 82, 82);
 }
 
-.sx-ico {
+.ico {
     text-align: center;
     margin-right: 0.5em;
 }
 
-.sx-ico span {
+.ico span {
+    font-size: 0.7em;
     display: block;
 }
 
 .fa-chevron-up {
     font-size: 0.5em;
+}
+
+.fa-share-square {
+    color: greenyellow;
 }
 
 
