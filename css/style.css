@@ -57,7 +57,6 @@ main {
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;
-    background-color: red;
     min-height: 300px;
     min-width: 300px;
     overflow-y: scroll;
@@ -69,7 +68,6 @@ main .utente {
     background-image: url(../img/unnamed.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 1em;
     display: flex;
     align-items: flex-end;
 }
@@ -82,3 +80,62 @@ main .utente {
 }
 
 /*fine css main*/
+
+/*inizio css nav*/
+nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(46, 45, 45);
+}
+
+.nav-colonna-sx {
+    color: white;
+    height: 100%;
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-colonna-cx {
+    height: 100%;
+    flex-basis: 50%;
+}
+
+.nav-colonna-dx {
+    height: 100%;
+    flex-basis: 25%;
+}
+
+.sx-contenitore{
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.sx-contenitore:hover {
+    background-color: grey;
+}
+
+.sx-simbolo:hover {
+    background-color: rgb(82, 82, 82);
+}
+
+.sx-ico {
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+.sx-ico span {
+    display: block;
+}
+
+.fa-chevron-up {
+    font-size: 0.5em;
+}
+
+
+/*fine css mav*/
