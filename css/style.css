@@ -59,7 +59,7 @@ main {
     flex-wrap: wrap;
     min-height: 300px;
     min-width: 300px;
-    overflow-y: scroll;
+    overflow: auto;
 }
 
 main .utente {
